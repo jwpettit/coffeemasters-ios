@@ -55,10 +55,10 @@
 		78F81F6E29E23A9F003A8AE5 /* CoffeeMasters */ = {
 			isa = PBXGroup;
 			children = (
-				78F81F6F29E23A9F003A8AE5 /* CoffeeMastersApp.swift */,
+				78F81F8229E38636003A8AE5 /* Page Views */,
+				78F81F8129E38627003A8AE5 /* Views */,
 				78F81F7129E23A9F003A8AE5 /* ContentView.swift */,
-				78F81F7D29E35FAD003A8AE5 /* Offer.swift */,
-				78F81F7F29E37060003A8AE5 /* OffersPage.swift */,
+				78F81F6F29E23A9F003A8AE5 /* CoffeeMastersApp.swift */,
 				78F81F7329E23AA1003A8AE5 /* Assets.xcassets */,
 				78F81F7529E23AA1003A8AE5 /* Preview Content */,
 			);
@@ -71,6 +71,22 @@
 				78F81F7629E23AA1003A8AE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78F81F8129E38627003A8AE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78F81F7D29E35FAD003A8AE5 /* Offer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78F81F8229E38636003A8AE5 /* Page Views */ = {
+			isa = PBXGroup;
+			children = (
+				78F81F7F29E37060003A8AE5 /* OffersPage.swift */,
+			);
+			path = "Page Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
