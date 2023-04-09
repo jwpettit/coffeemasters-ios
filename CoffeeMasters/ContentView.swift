@@ -12,7 +12,7 @@ struct ContentView: View {
     // This feels to me like it is the equivalent of the Routers in React
     var body: some View {
         TabView {
-            Text("Home Page")
+            MenuPage()
                 .tabItem {
                     Image(systemName: "cup.and.saucer")
                     Text("Home Page")
@@ -24,12 +24,12 @@ struct ContentView: View {
                     Image(systemName: "tag")
                     Text("Offers")
                 }
-            Text("Order Page")
+            OrdersPage()
                 .tabItem {
                     Image(systemName: "cart")
                     Text("Order")
                 }
-            Text("Info Page")
+            InfoPage()
                 .tabItem {
                     Image(systemName: "info")
                     Text("Info")

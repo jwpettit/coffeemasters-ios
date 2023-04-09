@@ -13,6 +13,9 @@
 		78F81F7729E23AA1003A8AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F81F7629E23AA1003A8AE5 /* Preview Assets.xcassets */; };
 		78F81F7E29E35FAD003A8AE5 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F7D29E35FAD003A8AE5 /* Offer.swift */; };
 		78F81F8029E37060003A8AE5 /* OffersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F7F29E37060003A8AE5 /* OffersPage.swift */; };
+		78F81F8429E38666003A8AE5 /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F8329E38666003A8AE5 /* MenuPage.swift */; };
+		78F81F8629E38673003A8AE5 /* OrdersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F8529E38673003A8AE5 /* OrdersPage.swift */; };
+		78F81F8829E38681003A8AE5 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F8729E38681003A8AE5 /* InfoPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		78F81F7629E23AA1003A8AE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78F81F7D29E35FAD003A8AE5 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		78F81F7F29E37060003A8AE5 /* OffersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersPage.swift; sourceTree = "<group>"; };
+		78F81F8329E38666003A8AE5 /* MenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPage.swift; sourceTree = "<group>"; };
+		78F81F8529E38673003A8AE5 /* OrdersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPage.swift; sourceTree = "<group>"; };
+		78F81F8729E38681003A8AE5 /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				78F81F7F29E37060003A8AE5 /* OffersPage.swift */,
+				78F81F8329E38666003A8AE5 /* MenuPage.swift */,
+				78F81F8529E38673003A8AE5 /* OrdersPage.swift */,
+				78F81F8729E38681003A8AE5 /* InfoPage.swift */,
 			);
 			path = "Page Views";
 			sourceTree = "<group>";
@@ -161,7 +170,10 @@
 			files = (
 				78F81F7E29E35FAD003A8AE5 /* Offer.swift in Sources */,
 				78F81F8029E37060003A8AE5 /* OffersPage.swift in Sources */,
+				78F81F8429E38666003A8AE5 /* MenuPage.swift in Sources */,
+				78F81F8829E38681003A8AE5 /* InfoPage.swift in Sources */,
 				78F81F7229E23A9F003A8AE5 /* ContentView.swift in Sources */,
+				78F81F8629E38673003A8AE5 /* OrdersPage.swift in Sources */,
 				78F81F7029E23A9F003A8AE5 /* CoffeeMastersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
