@@ -15,7 +15,7 @@ struct ContentView: View {
             MenuPage()
                 .tabItem {
                     Image(systemName: "cup.and.saucer")
-                    Text("Home Page")
+                    Text("Menu")
                 }
             // Notice how here we just are putting in the component
             OffersPage()

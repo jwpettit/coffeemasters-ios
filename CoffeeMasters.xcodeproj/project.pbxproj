@@ -16,6 +16,7 @@
 		78F81F8429E38666003A8AE5 /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F8329E38666003A8AE5 /* MenuPage.swift */; };
 		78F81F8629E38673003A8AE5 /* OrdersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F8529E38673003A8AE5 /* OrdersPage.swift */; };
 		78F81F8829E38681003A8AE5 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F8729E38681003A8AE5 /* InfoPage.swift */; };
+		78F81F8A29E387CB003A8AE5 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F8929E387CB003A8AE5 /* ProductItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		78F81F8329E38666003A8AE5 /* MenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPage.swift; sourceTree = "<group>"; };
 		78F81F8529E38673003A8AE5 /* OrdersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPage.swift; sourceTree = "<group>"; };
 		78F81F8729E38681003A8AE5 /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		78F81F8929E387CB003A8AE5 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				78F81F7D29E35FAD003A8AE5 /* Offer.swift */,
+				78F81F8929E387CB003A8AE5 /* ProductItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				78F81F8029E37060003A8AE5 /* OffersPage.swift in Sources */,
 				78F81F8429E38666003A8AE5 /* MenuPage.swift in Sources */,
 				78F81F8829E38681003A8AE5 /* InfoPage.swift in Sources */,
+				78F81F8A29E387CB003A8AE5 /* ProductItem.swift in Sources */,
 				78F81F7229E23A9F003A8AE5 /* ContentView.swift in Sources */,
 				78F81F8629E38673003A8AE5 /* OrdersPage.swift in Sources */,
 				78F81F7029E23A9F003A8AE5 /* CoffeeMastersApp.swift in Sources */,

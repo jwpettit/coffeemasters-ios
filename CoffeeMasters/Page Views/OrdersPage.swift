@@ -13,7 +13,7 @@ struct OrdersPage: View {
     }
 }
 
-struct CartPage_Previews: PreviewProvider {
+struct OrdersPage_Previews: PreviewProvider {
     static var previews: some View {
         OrdersPage()
     }
