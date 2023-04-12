@@ -26,7 +26,7 @@ struct OrderItem: View {
                 .onTapGesture {
                     cartManager.remove(product: item.0)
                 }
-        }.padding()
+        }
     }
 }
 
