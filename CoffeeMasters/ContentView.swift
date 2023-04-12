@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @EnvironmentObject var cartManager: CartManager
+    
     // This feels to me like it is the equivalent of the Routers in React
     var body: some View {
         TabView {
@@ -29,6 +31,7 @@ struct ContentView: View {
                     Image(systemName: "cart")
                     Text("Order")
                 }
+                .badge(cartManager.cart.count)
             InfoPage()
                 .tabItem {
                     Image(systemName: "info")
