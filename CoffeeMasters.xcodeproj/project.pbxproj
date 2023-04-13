@@ -24,6 +24,7 @@
 		78F81F9729E4CF13003A8AE5 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F9629E4CF13003A8AE5 /* CartManager.swift */; };
 		78F81F9929E61270003A8AE5 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F9829E61270003A8AE5 /* OrderItem.swift */; };
 		78F81F9C29E61E4F003A8AE5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 78F81F9B29E61E4F003A8AE5 /* Alamofire */; };
+		78F81F9F29E78239003A8AE5 /* LikesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F9E29E78239003A8AE5 /* LikesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		78F81F9629E4CF13003A8AE5 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		78F81F9829E61270003A8AE5 /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
 		78F81F9D29E74CF9003A8AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		78F81F9E29E78239003A8AE5 /* LikesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				78F81F9229E39266003A8AE5 /* Product.swift */,
 				78F81F9429E4CEF7003A8AE5 /* MenuManager.swift */,
 				78F81F9629E4CF13003A8AE5 /* CartManager.swift */,
+				78F81F9E29E78239003A8AE5 /* LikesManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				78F81F8829E38681003A8AE5 /* InfoPage.swift in Sources */,
 				78F81F8A29E387CB003A8AE5 /* ProductItem.swift in Sources */,
 				78F81F7229E23A9F003A8AE5 /* ContentView.swift in Sources */,
+				78F81F9F29E78239003A8AE5 /* LikesManager.swift in Sources */,
 				78F81F7029E23A9F003A8AE5 /* CoffeeMastersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
