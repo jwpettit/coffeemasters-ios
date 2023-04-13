@@ -10,7 +10,7 @@ import SwiftUI
 struct ProductItem: View {
     
     var product: Product
-    
+        
     var body: some View {
         VStack {
             AsyncImage(url: product.imageURL)
@@ -25,6 +25,7 @@ struct ProductItem: View {
                         .font(.caption)
                 }.padding(8)
                 Spacer()
+//                LikeButton(product: product)
             }
         }
         .background(Color("SurfaceBackground"))

@@ -25,6 +25,7 @@
 		78F81F9929E61270003A8AE5 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F9829E61270003A8AE5 /* OrderItem.swift */; };
 		78F81F9C29E61E4F003A8AE5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 78F81F9B29E61E4F003A8AE5 /* Alamofire */; };
 		78F81F9F29E78239003A8AE5 /* LikesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81F9E29E78239003A8AE5 /* LikesManager.swift */; };
+		78F81FA129E78792003A8AE5 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F81FA029E78792003A8AE5 /* LikeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		78F81F9829E61270003A8AE5 /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
 		78F81F9D29E74CF9003A8AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		78F81F9E29E78239003A8AE5 /* LikesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesManager.swift; sourceTree = "<group>"; };
+		78F81FA029E78792003A8AE5 /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				78F81F7D29E35FAD003A8AE5 /* Offer.swift */,
 				78F81F8929E387CB003A8AE5 /* ProductItem.swift */,
 				78F81F9829E61270003A8AE5 /* OrderItem.swift */,
+				78F81FA029E78792003A8AE5 /* LikeButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				78F81F9929E61270003A8AE5 /* OrderItem.swift in Sources */,
 				78F81F8829E38681003A8AE5 /* InfoPage.swift in Sources */,
 				78F81F8A29E387CB003A8AE5 /* ProductItem.swift in Sources */,
+				78F81FA129E78792003A8AE5 /* LikeButton.swift in Sources */,
 				78F81F7229E23A9F003A8AE5 /* ContentView.swift in Sources */,
 				78F81F9F29E78239003A8AE5 /* LikesManager.swift in Sources */,
 				78F81F7029E23A9F003A8AE5 /* CoffeeMastersApp.swift in Sources */,
