@@ -7,4 +7,5 @@ CoffeeMasters is an app I built following along with the Frontend Masters course
 ---
 
 [Project Tutorial Site](https://firtman.github.io/intro-swift/)
+
 [Original Reference Repository](https://github.com/firtman/coffeemasters-ios)
